@@ -1,0 +1,150 @@
+.aboutus{
+    /* overflow-y: hidden; */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: baseline;
+    text-align: left;
+    background-color: #000000;
+    /* padding-top: 10rem; */
+     padding-bottom: 2rem; 
+     /* height: fit-content; */
+     height: fit-content;
+     padding-top: 6rem;
+     padding-bottom: 6rem;
+}
+
+.aboutusleft{ width: 50%;
+    padding-left: 3rem;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+position: relative;
+}
+
+.abtshadowleft{ 
+
+    position: absolute;
+    top: -32px;
+    left: -103px;
+}
+
+
+.abtshadowright{ 
+
+    position: absolute;
+    top: 2px;
+    left: 4px;
+}
+
+
+#aboutusimg{ 
+}
+
+.aboutusright{ width: 50%;
+    padding-left: 3rem;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
+.aboutus-h1{ font-size: 4rem;
+
+background-image: linear-gradient(to right ,  #ffff 0% ,  #797979 100% );
+-webkit-background-clip: text;
+background-clip: text;
+color: transparent;
+padding-bottom: 35px;
+
+
+
+
+letter-spacing: -2%;
+text-shadow: 0 0 2px 12px #efefef;
+
+    font-weight: bold;
+
+}
+
+.aboutus-p{
+
+    padding-bottom: 25px;
+    font-size: 20px;
+font-weight: 100;
+word-wrap: normal;
+width: 70%;
+word-spacing: 2.5px;
+color: #D6D6D6;
+}
+
+#aboutus-glow2{position: absolute ; left: 20px;}
+
+#aboutus-glow{ position: absolute; 
+
+}
+.header2{ background-color: black; border: 2px  black ; height: 10px ; filter: blur(5px);}
+
+
+@media  (min-width :600px) and (max-width: 760px) {
+    
+    .aboutus-h1{
+        font-size: 1.5rem;
+    }
+    .aboutus-p{
+        font-size: 10px;
+    }
+  } 
+  
+
+  @media  (min-width :300px) and (max-width: 600px) {
+.aboutus{ display: flex;  
+flex-direction: column-reverse;
+align-items: center;
+justify-content: center;
+text-align: center;
+width: 100vw;
+height: fit-content;
+/* padding-top: 15rem;
+padding-bottom: 25rem; */
+/* padding-top: 1rem;
+padding-bottom: 15rem; */
+
+}
+
+.aboutusleft{ width: 100%; }
+
+.aboutusright{width: 100%; padding-left: 1px;}
+.aboutus-h1{ width: 100%; font-size: 2rem;}
+.aboutus-p{ width: 100%; padding: 20px; font-size: 1rem;}
+      
+}
+
+
+
+
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media  (min-width : 760px) and (max-width: 980px) {
+
+    .aboutus-h1{
+        font-size: 2rem;
+    }
+    .aboutus-p{
+        font-size: 14px;
+    }
+} 
+  
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media  (min-width : 980px) and (max-width: 1280px) {
+    .aboutus-h1{
+        font-size: 2.5rem;
+    }
+    .aboutus-p{
+        font-size: 17px;
+    }
+  
+} 
