@@ -33,7 +33,7 @@ const Investplan = () => {
           </div>
 
           <div className="card"> 
-            <h1 className="carda"> Baby Plan</h1>
+            <h1 className="carda"> Baby <br />Plan</h1>
             <h2 className="cardb"> $99 - $888</h2>
             <h2 className="cardc"> 6% Everyday</h2>
             <div className="line"></div>
@@ -75,7 +75,7 @@ const Investplan = () => {
           </div>
 
           <div className="card"> 
-            <h1 className="carda"> Starter Pack</h1>
+            <h1 className="carda"> Starter <br />Pack</h1>
             <h2 className="cardb"> $50 - $400</h2>
             <h2 className="cardc"> 6% Everyday</h2>
             <div className="line"></div>

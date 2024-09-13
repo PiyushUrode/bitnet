@@ -123,10 +123,12 @@
   }
   .contact-left {
     width: 100%;
+    padding: 0.25rem;
   }
   .contact-right {
     width: 100%;
     background-color: black;
+    padding: 0.25rem;
   }
   .contact-right-aa {
     margin-top: 1rem;
@@ -137,12 +139,17 @@
   }
   .form {
     column-gap: 20px;
+    width: 100%;
   }
+
+  .form-1{display: flex; flex-direction: column;}
   .info {
     font-size: 1rem;
+    width: 100%;
   }
   .info1 {
     font-size: 1rem;
+    width: 100%;
   }
 }
 

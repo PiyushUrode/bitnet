@@ -1,9 +1,11 @@
 import React from "react";
 import "./Header.css"
+import Popup from "./Popup";
 
 const Header = () => {
   return (
     <>
+<Popup/>
       <div className="header" id="header">
         <div
           className="  header-left  "

@@ -28,6 +28,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    min-width: 250px;
   }
   
   .footer__logo {
@@ -39,6 +40,7 @@
     margin: 10px 0; /* Add some space above and below description */
     font-size: 0.8rem; /* Adjust description font size */
     color: #f5f5f5; /* Set a subdued color for description */
+    text-align: center;
   }
   
   .footer__social {
@@ -88,7 +90,25 @@
 
   @media (min-width: 300px) and (max-width: 600px) {
     .footer{ display: flex; flex-direction: column; width: 100vw;}
-    .footer__container{ display: flex; flex-direction: column;}
+    .footer__container{ display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;}
+
+      .footer__section{ width: 100%;gap: 10px; text-align: center;}
+      .footer__logo{width: 12rem;}
+      .footer__description{font-size: 1rem;}
+      .footer__heading{font-size: 1.5rem; font-weight: 600; margin: 1px;}
+      .footer__list{
+        gap: 10px;
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+      }
+
+
+
 
    }
 

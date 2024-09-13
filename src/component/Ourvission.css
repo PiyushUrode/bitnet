@@ -32,6 +32,7 @@ height: fit-content;
 .small-p1 {
   border-right: 2px solid white;
   padding-left: 20px;
+  padding-right: 20px;
   font-size: 1.2rem;
   color: #D6D6D6;
   font-weight: 300;
@@ -89,7 +90,7 @@ height: fit-content;
   #Heading-h1{ font-size: 2rem;
   padding-top: 2rem;  padding-bottom: 2rem;
   }
-  .small{ width: 90%; display: flex; flex-direction: column-reverse;}
+  .small{ width: 90%; padding-top: 1px; display: flex; flex-direction: column-reverse;}
   #Heading-img{width: 50px; height: 50px;}
 }
 
@@ -97,7 +98,9 @@ height: fit-content;
 
  @media  (min-width :600px) and (max-width: 760px) {
   #Heading-h1{ font-size: 35px;}
-  .small{ width: 70%;}
+  .small{ width: 70%;
+
+  }
 
    
 } 
@@ -106,12 +109,12 @@ height: fit-content;
 /* Large devices (laptops/desktops, 992px and up) */
 @media  (min-width : 760px) and (max-width: 980px) {
  
-.main{  }
-.small{ width: 100%;}
+.main{ padding: 4rem; padding-bottom: 0px; }
+.small{  padding-top: 10px;  width: 100%;}
 .small-p{}
 .small-p1{}
 .ourvision-heading{}
-#Heading-h1{ font-size: 45px;}
+#Heading-h1{ font-size: 4rem;}
 #Heading-img{}
 
 } 

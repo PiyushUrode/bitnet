@@ -64,7 +64,7 @@
   overflow-x: hidden;
   display: flex;
   row-gap: 50px;
-  column-gap: 50px;
+  column-gap: 100px;
 
   /* padding: 5rem; */
   padding-left: 2rem;
@@ -77,6 +77,7 @@
 }
 
 .card {
+  max-width: 300px;
   border: 1px solid #0075ff;
   border-radius: 10px;
   padding: 1rem;
@@ -150,25 +151,29 @@
     width: 90vw;
   }
   .Investplan-h1 {
-    font-size: 2.2rem;
+    font-size: 2.6rem;
   }
   .Investplan-p {
-    font-size: 1rem;
-    padding-left: 20px;
-    padding-right: 20px;
+    font-size: 1.2rem;
+    padding-left: 30px;
+    padding-right: 29px;
     text-align: justify;
-    word-spacing: 2px;
   }
   .cardmain{ padding: 1rem; }
 }
 
 @media (min-width: 600px) and (max-width: 760px) {
-}
+.cardmain{padding: 0.5rem;}
+/* .Cards{ column-gap: 10px;}
+.card{.Cards{ column-gap: 10px;}}
+*/ } 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media (min-width: 760px) and (max-width: 980px) {
+  .cardmain{padding: 1rem;}
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media (min-width: 980px) and (max-width: 1280px) {
+  .cardmain{padding: 1rem;}
 }

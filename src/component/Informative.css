@@ -140,11 +140,11 @@
 @media (min-width: 300px) and (max-width: 600px) {
 
   .informative{display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 50px; text-align: center;}
-  .informative-left{ width: 100%; padding-left: 15px; padding-right: 15px; text-align: center;}
-  .informative-left-h1{text-align: center; width: 100%; font-size: 2.5rem;}
+  .informative-left{ width: 100%; padding-left: 15px; padding-right: 15px; text-align: center; gap: 10px;}
+  .informative-left-h1{text-align: center; width: 100%; font-size: 2rem;}
   .informative-left-p{width: 100%; font-size: 1rem;}
   .informative-right{ width: 100%;}
-  .informative-right-a{ width: 70%;display: flex;  flex-direction: column; align-items: center; justify-content: center;}
+  .informative-right-a{ width: 90%;display: flex;  flex-direction: column; align-items: center; justify-content: center;}
   .informative-right-a-img{width: 70%;}
   .informative-content{display: flex;
     flex-direction: column;
@@ -163,10 +163,10 @@
   .informative-right-aa {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 75%;
 }
-  .informative-content-b{ display: flex; flex-direction: column; width: 50vw;}
-  .informative-content-p-b{ font-size: 1rem;}
+  .informative-content-b{ display: flex; flex-direction: column; width: 50vw; gap: 15px;}
+  .informative-content-p-b{ font-size: 10px;}
   .informative-right-aa-img {
     /* width: 70px; */
     /* height: 80px; */
@@ -186,31 +186,30 @@
   .informative-left-p{width: 100%; font-size: 1rem;}
   .informative-right{ width: 100%;}
   .informative-right-a{ width: 70%;display: flex;  flex-direction: column; align-items: center; justify-content: center;}
-  .informative-right-a-img{width: 50%;}
+  .informative-right-a-img{width: 70%;}
   .informative-content{display: flex;
     flex-direction: column;
     width: 100%;}
   .informative-content-p{ font-size: 1rem;}
-  
+  .informative-right-aa-img {
+    /* width: 70px; */
+    /* height: 80px; */
+    width: 60%;
+}  
   .informative-content-btn{}
 
 
 
   .informative-right-b{ display: flex;  flex-direction: column;}
-  /* .informative-right-aa{width: 70vw;} */
-  .informative-right-aa-img{width: 50%}
+  
   .informative-right-aa {
     display: flex;
     flex-direction: column;
     width: 60%;
 }
-  .informative-content-b{ display: flex; flex-direction: column;}
-  .informative-content-p-b{ font-size: 0.4rem;}
-  .informative-right-aa-img {
-    /* width: 70px; */
-    /* height: 80px; */
-    width: 30%;
-}
+  .informative-content-b{ display: flex; flex-direction: column; width: 90%; gap: 10px;}
+  .informative-content-p-b{ font-size: 0.75rem;}
+
 
 
 
