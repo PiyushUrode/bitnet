@@ -1,5 +1,8 @@
 import React from "react";
 import "./Ourvission.css";
+import Ourvisionimg from "../images/ourvision.svg"
+import Ourvisionimg2 from "../images/ourmission.svg"
+
 const Ourvission = () => {
   return (
     <>
@@ -27,7 +30,7 @@ const Ourvission = () => {
 
 
           <div className="ourvision-heading">
-            <h1 id="Heading-h1">  OUR <img id="Heading-img"  src="./src/images/ourvision.svg" alt="" /> VISION</h1>
+            <h1 id="Heading-h1">  OUR <img id="Heading-img"  src={Ourvisionimg} alt="" /> VISION</h1>
              </div>
         </div>
       </div>
@@ -63,7 +66,7 @@ const Ourvission = () => {
 
 
           <div className="ourvision-heading">
-            <h1  data-text="GeeksforGeeks" id="Heading-h1">  OUR <img id="Heading-img"  src="./src/images/ourmission.svg" alt="" /> MISSION</h1>
+            <h1  data-text="GeeksforGeeks" id="Heading-h1">  OUR <img id="Heading-img"  src={Ourvisionimg2} alt="" /> MISSION</h1>
              </div>
         </div>
       </div>

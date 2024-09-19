@@ -1,5 +1,11 @@
 import React from 'react'
 import "./Howitwork.css"
+import Howitworkimg1 from "../images/howitwork.svg"
+import Howitworkimg2 from "../images/howitwork.svg"
+import Howitworkimg3 from "../images/howitworkshadowright.svg"
+import Howitworkimg4 from "../images/circle.svg"
+
+
 
 const Howitwork = () => {
   return (
@@ -11,18 +17,18 @@ const Howitwork = () => {
 <div className='howitwork'>
    
     <div className='howitwork-left'> 
-        <img src="./src/images/howitwork.svg" alt="" />
-        <img src="./src/images/howitworkshadowleft.svg" alt="" className='howitworkshadowleft' />
+        <img src={Howitworkimg1} alt="" />
+        <img src={Howitworkimg2} alt="" className='howitworkshadowleft' />
     </div>
     <div className='howitwork-right'>
         <div className='topic'>
-        <img src="./src/images/howitworkshadowright.svg" alt="" className='howitworkshadowright' />
+        <img src={Howitworkimg3} alt="" className='howitworkshadowright' />
  
             
             <div className='topicdata'>
                 <div className='topicdata-div'>
 
-                <img src="./src/images/circle.svg" alt="topicimg" className='topicimg' />
+                <img src={Howitworkimg4} alt="topicimg" className='topicimg' />
                 <h1 className='topicdata-h1'>Register & Log in</h1>
                 </div>
                 <p className='topicdata-p'> Creating an account is the first step. then you need to log in</p>
@@ -31,7 +37,7 @@ const Howitwork = () => {
             <div className='topicdata'>
                 <div className='topicdata-div'>
 
-                <img src="./src/images/circle.svg" alt="topicimg" className='topicimg' />
+                <img src= {Howitworkimg4} alt="topicimg" className='topicimg' />
                 <h1 className='topicdata-h1'>Add Fund</h1>
                 </div>
                 <p className='topicdata-p'> Next, pick a payment method and add funds to your account</p>
@@ -41,7 +47,7 @@ const Howitwork = () => {
             <div className='topicdata'>
                 <div className='topicdata-div'>
 
-                <img src="./src/images/circle.svg" alt="topicimg" className='topicimg' />
+                <img src={Howitworkimg4} alt="topicimg" className='topicimg' />
                 <h1 className='topicdata-h1'>Select Service</h1>
                 </div>
                 <p className='topicdata-p'> Select the services you want and get ready to receive more publicity</p>
@@ -50,7 +56,7 @@ const Howitwork = () => {
             <div className='topicdata1' >
                 <div className='topicdata-div'>
 
-                <img src="./src/images/circle.svg" alt="topicimg" className='topicimg' />
+                <img src={Howitworkimg4} alt="topicimg" className='topicimg' />
                 <h1 className='topicdata-h1'>Enjoy Super Results</h1>
                 </div>
                 <p className='topicdata-p'> You can enjoy incredible results when your order is complete</p>

@@ -1,89 +1,142 @@
 import React from "react";
 import "./Investplan.css"
+import Invest1 from "../images/investleftglow.png"
 
 const Investplan = () => {
   return (
     <div className="Investplan" id="Investmentplan">
       <div className="Investplan-div">
 
-      <h1 className="Investplan-h1"> Investment Plan</h1>
+      <h1 className="Investplan-h1"> Subscription Page</h1>
       <p className="Investplan-p">
         {" "}
-        Help agencies to define their new business objectives and then create
-        professional software.
+        Explore our flexible subscription packages designed to provide consistent daily returns
       </p>
       </div>
 
       <div className="cardmain">  
         {/* <img src="./src/images/investrightglow.png" alt="" className="investrightglow" /> */}
-        <img src="./src/images/investleftglow.png" alt="" className="investleftglow" />
+        <img src={Invest1} alt="" className="investleftglow" />
             <div className="Cards"> 
-          <div className="card"> 
-            <h1 className="carda"> Business Plan</h1>
-            <h2 className="cardb"> $69 - $999</h2>
-            <h2 className="cardc"> 6% Everyday</h2>
-            <div className="line"> </div>
-            <ul className="cardsul">
-              <li> Profit for life time </li>
-              <li> Capital will back :- <span className="li-span"> yes</span> </li>
-              <li>  Lifetime Earning </li>
-               </ul>
-               <button className="cardsbutton"> InvestNow</button>
-
-          </div>
-
-          <div className="card"> 
-            <h1 className="carda"> Baby <br />Plan</h1>
-            <h2 className="cardb"> $99 - $888</h2>
-            <h2 className="cardc"> 6% Everyday</h2>
+           
+            <div className="card"> 
+            {/* <h1 className="carda"> Hatchling Plan</h1> */}
+            <h2 className="cardb"> $10 - $.041 daily </h2>
+            <h2 className="cardc"> 720 days </h2>
             <div className="line"></div>
-            <ul className="cardsul">
-              <li> Profit for life time </li>
-              <li> Capital will call back <span className="li-span"> yes</span> </li>
-              <li>  Lifetime Earning </li>
-               </ul>
-               <button className="cardsbutton"> InvestNow</button>
-
-          </div>
-
-          <div className="card"> 
-            <h1 className="carda"> Hatchling Plan</h1>
-            <h2 className="cardb"> $69 - $999</h2>
-            <h2 className="cardc"> 6% Everyday</h2>
-            <div className="line"></div>
-            <ul className="cardsul" >
+            {/* <ul className="cardsul" >
               <li className="cardsli"> Profit for life time </li>
               <li className="cardsli"> Capital will call back <span className="li-span"> yes</span> </li>
               <li className="cardsli">  Lifetime Earning </li>
-               </ul>
+               </ul> */}
+               <button className="cardsbutton"> InvestNow</button>
+
+          </div>
+
+
+
+
+          <div className="card"> 
+            {/* <h1 className="carda"> Hatchling Plan</h1> */}
+            <h2 className="cardb"> $50 - $.208 daily </h2>
+            <h2 className="cardc"> 720 days </h2>
+            <div className="line"></div>
+            {/* <ul className="cardsul" >
+              <li className="cardsli"> Profit for life time </li>
+              <li className="cardsli"> Capital will call back <span className="li-span"> yes</span> </li>
+              <li className="cardsli">  Lifetime Earning </li>
+               </ul> */}
+               <button className="cardsbutton"> InvestNow</button>
+
+          </div>
+
+
+
+          <div className="card"> 
+            {/* <h1 className="carda"> Hatchling Plan</h1> */}
+            <h2 className="cardb"> $100 - $.416 daily </h2>
+            <h2 className="cardc"> 720 days </h2>
+            <div className="line"></div>
+            {/* <ul className="cardsul" >
+              <li className="cardsli"> Profit for life time </li>
+              <li className="cardsli"> Capital will call back <span className="li-span"> yes</span> </li>
+              <li className="cardsli">  Lifetime Earning </li>
+               </ul> */}
                <button className="cardsbutton"> InvestNow</button>
 
           </div>
   
           <div className="card"> 
-            <h1 className="carda"> Secondary Plan</h1>
-            <h2 className="cardb"> $89 - $666</h2>
-            <h2 className="cardc"> 6% Everyday</h2>
+            {/* <h1 className="carda"> Secondary Plan</h1> */}
+            <h2 className="cardb"> $500 - $2.08 daily  </h2>
+            <h2 className="cardc"> 720 days </h2>
             <div className="line"></div>
-            <ul className="cardsul">
+            {/* <ul className="cardsul">
               <li> Profit for life time </li>
               <li> Capital will call back <span className="li-span"> yes</span> </li>
               <li>  Lifetime Earning </li>
-               </ul>
+               </ul> */}
                <button className="cardsbutton"> InvestNow</button>
 
           </div>
 
           <div className="card"> 
-            <h1 className="carda"> Starter <br />Pack</h1>
-            <h2 className="cardb"> $50 - $400</h2>
-            <h2 className="cardc"> 6% Everyday</h2>
+            {/* <h1 className="carda"> Starter <br />Pack</h1> */}
+            <h2 className="cardb"> $1000 - $4.16 daily  </h2>
+            <h2 className="cardc"> 720 days </h2>
             <div className="line"></div>
-            <ul className="cardsul">
+            {/* <ul className="cardsul">
               <li> Profit for life time </li>
               <li> Capital will call back <span className="li-span"> yes</span> </li>
               <li>  Lifetime Earning </li>
-               </ul>
+               </ul> */}
+               <button className="cardsbutton"> InvestNow</button>
+
+          </div>
+
+
+          <div className="card"> 
+            {/* <h1 className="carda"> Starter <br />Pack</h1> */}
+            <h2 className="cardb"> $5000 - $20.8 daily  </h2>
+            <h2 className="cardc">  720 days </h2>
+            <div className="line"></div>
+            {/* <ul className="cardsul">
+              <li> Profit for life time </li>
+              <li> Capital will call back <span className="li-span"> yes</span> </li>
+              <li>  Lifetime Earning </li>
+               </ul> */}
+               <button className="cardsbutton"> InvestNow</button>
+
+          </div>
+
+
+
+          <div className="card"> 
+            {/* <h1 className="carda"> Starter <br />Pack</h1> */}
+            <h2 className="cardb"> $10000 - BBX41.6 daily  </h2>
+            <h2 className="cardc"> 720 days </h2>
+            <div className="line"></div>
+            {/* <ul className="cardsul">
+              <li> Profit for life time </li>
+              <li> Capital will call back <span className="li-span"> yes</span> </li>
+              <li>  Lifetime Earning </li>
+               </ul> */}
+               <button className="cardsbutton"> InvestNow</button>
+
+          </div>
+
+
+
+          <div className="card"> 
+            {/* <h1 className="carda"> Starter <br />Pack</h1> */}
+            <h2 className="cardb"> $25000 – BBX104 daily  </h2>
+            <h2 className="cardc"> 720 days </h2>
+            <div className="line"></div>
+            {/* <ul className="cardsul">
+              <li> Profit for life time </li>
+              <li> Capital will call back <span className="li-span"> yes</span> </li>
+              <li>  Lifetime Earning </li>
+               </ul> */}
                <button className="cardsbutton"> InvestNow</button>
 
           </div>

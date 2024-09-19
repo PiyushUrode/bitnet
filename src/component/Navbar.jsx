@@ -27,10 +27,10 @@ const Navbar = () => {
           " navbarcontain  w-full z-10 overflow-x-hidden   top-0 start-0 border-b border-none dark:border-gray-600"
         }
       >
-        <div className=" max-w-full h-full  flex flex-wrap items-center justify-between mx-auto p-4 px-4 md:p-4 md:px-8">
-          <a href="">
+        <div className=" sm:flex-nowrap   max-w-full h-full  flex flex-wrap items-center justify-between mx-auto p-4 px-4 md:p-4 md:px-8">
+          <a href="" >
             <div className="flex items-center  space-x-3 rtl:space-x-reverse ">
-              <img src={logo} width={200} height={50} alt="VOIP" />
+              <img src={logo} width={200} height={50} alt="VOIP" className="logoimg" />
               {/* <h1 className=" text-4xl font-bold font-outfit  text-primary-gradient phone:text-xl " > */}
               {/* Bitnet */}
               {/* </h1> */}
@@ -102,7 +102,7 @@ const Navbar = () => {
               <li className="md:border-none border-b-[1px] border-gradient ">
                 <a href="#Investmentplan">
                   <div className=" font-semibold block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:text-[#e18dff] font-outfit ">
-                    Investmentplan
+                  Subscription
                   </div>
                 </a>
               </li>

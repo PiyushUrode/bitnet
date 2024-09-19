@@ -1,12 +1,16 @@
 import React from "react";
 import "./Whychoose.css";
+import Why1 from "../images/pic1.svg"
+import Why2 from "../images/why1.svg"
+import Why3 from "../images/why2.svg"
+import Why4 from "../images/why3.svg"
+
 
 const Whychoose = () => {
   return (
     <>
       <div className="whychoose">
-      {/* <img src="./src/images/investleftglow.png" alt="" className="investleftglow" />
-      <img src="./src/images/investrightglow.png" alt="" className="investrightglow" /> */}
+
         <h1 className="whychoose-h1"> Why Choose Investment Plan</h1>
         <p className="whychoose-p">
           Help agencies to define their new business objectives and then create
@@ -15,7 +19,7 @@ const Whychoose = () => {
 
         <div className="whychoosefeature">
           <div className="whychoosefeature1">
-                      <img src="./src/images/pic1.svg" alt="" className="whychoosefeatureicon" />
+                      <img src={Why1} alt="" className="whychoosefeatureicon" />
             <div className="whychoosefeature1point">
               <h1 className="whychoosefeature1pointh1"> Expert Management</h1>
               <div className="whychoosefeature1pointdiv"></div>
@@ -29,7 +33,7 @@ const Whychoose = () => {
           </div>
 
             <div className="whychoosefeature1">
-                      <img src="./src/images/why1.svg" alt="" className="whychoosefeatureicon" />
+                      <img src={Why2} alt="" className="whychoosefeatureicon" />
             <div className="whychoosefeature1point">
               <h1 className="whychoosefeature1pointh1"> Registerd Company</h1>
               <div className="whychoosefeature1pointdiv"></div>
@@ -45,7 +49,7 @@ const Whychoose = () => {
 
 
             <div className="whychoosefeature1">
-                      <img src="./src/images/why2.svg" alt="" className="whychoosefeatureicon" />
+                      <img src={Why3} alt="" className="whychoosefeatureicon" />
             <div className="whychoosefeature1point">
               <h1 className="whychoosefeature1pointh1"> Secure Investment</h1>
               <div className="whychoosefeature1pointdiv"></div>
@@ -61,7 +65,7 @@ const Whychoose = () => {
 
 
             <div className="whychoosefeature1">
-            <img src="./src/images/why3.svg" alt="" className="whychoosefeatureicon" />
+            <img src={Why4} alt="" className="whychoosefeatureicon" />
             <div className="whychoosefeature1point">
               <h1 className="whychoosefeature1pointh1"> Instant Withdrawal</h1>
               <div className="whychoosefeature1pointdiv"></div>

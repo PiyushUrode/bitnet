@@ -78,6 +78,7 @@
 
 .card {
   max-width: 300px;
+  height: 20rem;
   border: 1px solid #0075ff;
   border-radius: 10px;
   padding: 1rem;
@@ -91,14 +92,14 @@
   letter-spacing: -2%;
 }
 .cardb {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #0075ff;
   font-weight: bold;
 
   letter-spacing: -2%;
 }
 .cardc {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 400;
 }
 .line {
@@ -138,7 +139,7 @@
   /* border: 2px solid red; */
   width: 90%;
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 1.5rem;
   letter-spacing: 2px;
 }
 
@@ -151,7 +152,7 @@
     width: 90vw;
   }
   .Investplan-h1 {
-    font-size: 2.6rem;
+    font-size: 2.2rem;
   }
   .Investplan-p {
     font-size: 1.2rem;
@@ -164,13 +165,88 @@
 
 @media (min-width: 600px) and (max-width: 760px) {
 .cardmain{padding: 0.5rem;}
+.Cards {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  text-align: left;
+  margin: 20px 0px 40px 0px;
+  overflow-x: hidden;
+  display: flex;
+  row-gap: 10px;
+  column-gap: 10px;
+
+  /* padding: 5rem; */
+  padding-left: 2rem;
+  padding-right: 2rem;
+  flex-direction: row;
+  /* flex-wrap: nowrap; */
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.card {
+  max-width: 220px;
+  height: 20rem;
+  border: 1px solid #0075ff;
+  border-radius: 10px;
+  padding: 1rem;
+  color: white;
+  padding: 50px 30px 50px 30px;
+}
+
+.Investplan-h1{font-size: 2.5rem;}
+.Investplan-p{font-size: 1.5rem; flex-wrap: wrap; padding-top: 1rem; padding-right: 1rem;}
+.carda , .cardb , .cardc{font-size: 2rem;}
+
+
 /* .Cards{ column-gap: 10px;}
 .card{.Cards{ column-gap: 10px;}}
 */ } 
 
+
+@media (min-width: 600px) and (max-width: 760px) {
+  .carda, .cardb, .cardc {
+      font-size: 1.5rem;
+  }
+}
+
 /* Large devices (laptops/desktops, 992px and up) */
 @media (min-width: 760px) and (max-width: 980px) {
   .cardmain{padding: 1rem;}
+
+  .Cards {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    text-align: left;
+    margin: 20px 0px 40px 0px;
+    overflow-x: hidden;
+    display: flex;
+    row-gap: 10px;
+    column-gap: 10px;
+  
+    /* padding: 5rem; */
+    padding-left: 2rem;
+    padding-right: 2rem;
+    flex-direction: row;
+    /* flex-wrap: nowrap; */
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    min-width: 300px;
+    height: 20rem;
+    border: 1px solid #0075ff;
+    border-radius: 10px;
+    padding: 1rem;
+    color: white;
+    padding: 50px 30px 50px 30px;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

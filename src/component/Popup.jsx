@@ -19,7 +19,7 @@ function Popup() {
       {isOpen && (
         <div className="popup">
           <div className="popup-content">
-            <span className="close-btn" onClick={closePopup}>&times;</span>
+            <span className="close-btn" onClick={closePopup}>&times; </span>
             <img src={Popupimg} alt="Popup" className="popup-image" />
           </div>
         </div>

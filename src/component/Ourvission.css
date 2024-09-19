@@ -87,6 +87,7 @@ height: fit-content;
 
 
 @media  (min-width :300px) and (max-width: 600px) {
+  .main{ padding-bottom: 1px; }
   #Heading-h1{ font-size: 2rem;
   padding-top: 2rem;  padding-bottom: 2rem;
   }

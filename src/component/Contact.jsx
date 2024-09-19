@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "./Contact.css";
+import Robot from "../images/robot.png"
 
 const MyForm = ({ formData, handleChange, handleSubmit }) => {
   return (
@@ -83,7 +84,7 @@ const Contact = () => {
   return (
     <>
       <div className="contact" id='contact'> 
-        <div className='contact-left'> <img src="./src/images/robot.png" alt="" className='contact-left-img'/>  </div>
+        <div className='contact-left'> <img src={Robot} alt="" className='contact-left-img'/>  </div>
         <div className='contact-right'>
           <div className='contact-right-a'>
             <h1 className='contact-right-a-h1'> GET IN TOUCH</h1>

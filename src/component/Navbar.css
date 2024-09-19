@@ -11,3 +11,11 @@
       rgba(0, 86, 254, 1) 0%,
       rgba(135, 41, 255, 1) 50%
     );}
+
+
+    @media (min-width : 200px) and (max-width : 450px) {
+      
+      .logoimg{ max-width: 80%; 
+        width: fit-content;}
+        #contacts-1{display: none;}
+      }

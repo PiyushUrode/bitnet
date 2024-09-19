@@ -103,6 +103,23 @@
 
 }
 
+.header2{ background-color: black; border: 2px  black ; height: 10px ; filter: blur(5px);}
+
+
+.header2{padding: 0 35px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0;
+
+
+  background-image: linear-gradient(to top, #000000, rgba(0, 143, 129, 0.0061), rgba(0, 0, 0, 1));
+  width: 100%;
+  min-height: 5vh;
+  
+  z-index: 4;}
+
 /* 
       @media only screen and (max-width: 600px) {
         
@@ -173,6 +190,9 @@
 
 
 @media (min-width: 300px) and (max-width: 499px) {
+
+
+  .header2{display: none;}
   .header {
     display: flex;
     flex-direction: column;
@@ -186,6 +206,8 @@
   #header-left {
     width: 100%;
   }
+
+
 
 
   #header-right {

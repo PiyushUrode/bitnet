@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Fotter.css"
-
+import logo from "../images/Bitnet.live.png"
 
 
 const Fotter = () => {
@@ -21,7 +21,7 @@ const Fotter = () => {
 <footer className="footer">
       <div className="footer__container">
         <div className="footer__section">
-          <img className="footer__logo" src="./src/images/bitnet.live.png" alt="Logo" />
+          <img className="footer__logo" src= {logo} alt="Logo" />
           <p className="footer__description">Dive into the world of Metaverse, Artificial Intelligence, Blockchain, Robotics, and Web3.0.</p>
           <div className="footer__social">
             <a href="#" className="footer__social-link"> 

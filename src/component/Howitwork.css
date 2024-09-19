@@ -91,6 +91,12 @@ height: fit-content;
 
 
 @media (min-width: 300px) and (max-width: 600px) {
+
+    .howitworkshadowleft {
+        position: absolute;
+        /* top: -232px; */
+        top: 0px;
+    }
     .howitwork{ 
         background: black;
         display: flex;
@@ -134,7 +140,7 @@ height: fit-content;
         .topic{ gap: 50px; padding-left: 10px;}
         .topicdata{}
         .topicimg{position: absolute; left: -65px; }
-    .topicdata-h1{ font-size: 1.7rem; font-weight: 700;}
+    .topicdata-h1{ font-size: 1.4rem; font-weight: 700;}
 .topicdata-p{ font-size: 1rem; font-weight: 300; color: rgba(240, 248, 255, 0.748);}}
 .howitworkshadowright {
    display: none;

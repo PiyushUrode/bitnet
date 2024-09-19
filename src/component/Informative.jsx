@@ -1,5 +1,8 @@
 import React from "react";
 import "./Informative.css"
+import Book1 from "../images/book.svg"
+import Book2 from "../images/ball.svg"
+
 
 const Informative = () => {
   return (
@@ -7,10 +10,10 @@ const Informative = () => {
       <div className="informative">
 
         <div className="informative-left">
-          <h1 className="informative-left-h1">Informative Center</h1>
+          <h1 className="informative-left-h1">BitNews</h1>
           <p className="informative-left-p">
             {" "}
-            Welcome to the Bitnet.live Information Center – your ultimate source
+            Welcome to the Bitnet.live BitNews – your ultimate source
             for breaking news, in-depth analysis, and expert insights on
             Metaverse, AI, Blockchain, Robotics, and Web3.0. Stay informed and
             inspired with the latest updates and trends shaping the future of
@@ -22,24 +25,23 @@ const Informative = () => {
         <div className="informative-right">
           
           <div className="informative-right-a">
-            <img src="./src/images/book.svg" alt="" className="informative-right-a-img" />
+            <img src= {Book1} alt="" className="informative-right-a-img" />
             <div className="informative-content">
-                <p className="informative-content-p">Welcome to the Bitnet.live Information Center your ultimate source for breaking news, in-depth analysis, and expert insights on Metaverse, AI, Block</p>
+                <p className="informative-content-p">Welcome to the Bitnet.live BitNews your ultimate source for breaking news, in-depth analysis, and expert insights on Metaverse, AI, Block</p>
                 <button className="informative-content-btn"> Learn More</button>
                  </div>
           </div>
 
           <div className="informative-right-b">
-          {/* <img src="./src/images/investleftglow.png" alt="" className="investleftglow" /> */}
-          {/* <img src="./src/images/investrightglow.png" alt="" className="investrightglow" /> */}
+
           <div className="informative-right-aa">
-            <img src="./src/images/book.svg" alt="" className="informative-right-aa-img" />
+            <img src={Book1} alt="" className="informative-right-aa-img" />
             <div className="informative-content-b">
-                <p className="informative-content-p-b">Welcome to the Bitnet.live Information Center your ultimate source for breaking news, in-depth analysis, and expert insights on Metaverse, AI, Block</p>
+                <p className="informative-content-p-b">Welcome to the Bitnet.live BitNews your ultimate source for breaking news, in-depth analysis, and expert insights on Metaverse, AI, Block</p>
                 <button className="informative-content-btn-b"> Learn More</button>
                  </div>
           </div>
-          <img src="./src/images/ball.svg" alt="" className="ballb" />
+          <img src={Book2} alt="" className="ballb" />
 
           </div>
         </div>

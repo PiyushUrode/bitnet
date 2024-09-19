@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+// import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from '../component/Navbar'
 import Header from '../component/Header'
  import Aboutus from '../component/Aboutus'
@@ -11,7 +11,7 @@ import Header from '../component/Header'
   import Informative from '../component/Informative'
 import Contact from '../component/Contact'
 import Fotter from '../component/Fotter'
-import Popup from '../component/Popup';
+// import Popup from '../component/Popup';
 
 
 
@@ -24,7 +24,7 @@ import Popup from '../component/Popup';
 const Homepage = () => {
   return (
 <>
-<Popup/>
+{/* <Popup/> */}
  <Navbar/> 
  <Header/> 
  <Aboutus/>
