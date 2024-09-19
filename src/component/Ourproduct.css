@@ -1,5 +1,5 @@
 .Ourproduct {
-  background-image: url("./src/images/Cover.svg");
+  background-image: url("../images/Cover.svg");
   background-color: currentColor;
   background-size: cover;
   /* height: 100vh; */
