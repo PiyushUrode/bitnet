@@ -33,11 +33,11 @@ const MyForm = ({ formData, handleChange, handleSubmit }) => {
       <div className='form-1'> 
       <label htmlFor="phoneno" className='info'  > Phone No :</label>
       <input
-        type="phoneno"
+        type="text"
         id="phoneno"
         className='info1'
-        name="email"
-        value={formData.email}
+        name="phoneno"
+        value={formData.phoneno}
         onChange={handleChange}
       />
       </div>
@@ -50,7 +50,7 @@ const MyForm = ({ formData, handleChange, handleSubmit }) => {
         id="message"
         className='info1'
         name="message"
-        value={formData.email}
+        value={formData.message}
         onChange={handleChange}
       /> </div>
       <br />
@@ -65,6 +65,8 @@ const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
+    phoneno: '',
+    message: '',
   });
 
   // Function to handle changes in form fields
