@@ -17,8 +17,8 @@ const Howitwork = () => {
 <div className='howitwork'>
    
     <div className='howitwork-left'> 
-        {/* <img src={Howitworkimg1} alt="" /> */}
-        <img src={Howitworkimg2} alt="" className='howitworkshadowleft' />
+        <img src={Howitworkimg1} alt="" />
+        {/* <img src={Howitworkimg2} alt="" className='howitworkshadowleft' /> */}
     </div>
     <div className='howitwork-right'>
         <div className='topic'>
