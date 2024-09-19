@@ -1,5 +1,5 @@
 .Investplan {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   height: fit-content;
   /* height: 100vh; */
 }
@@ -37,7 +37,8 @@
 }
 .cardmain {
   height: fit-content;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.578);
+  
   padding: 5rem;
   align-items: center;
   display: flex;
@@ -79,7 +80,7 @@
 .card {
   max-width: 300px;
   height: 20rem;
-  border: 1px solid #0075ff;
+  border: 1px solid #0077fff0;
   border-radius: 10px;
   padding: 1rem;
   color: white;
@@ -93,14 +94,18 @@
 }
 .cardb {
   font-size: 2rem;
-  color: #0075ff;
+  color: #298cfd;
   font-weight: bold;
+  text-align: center;
 
   letter-spacing: -2%;
 }
 .cardc {
   font-size: 1.5rem;
-  font-weight: 400;
+  font-weight: 700;
+  text-align: center;
+
+
 }
 .line {
   margin: 20px 0px 20px 0px;
@@ -136,6 +141,9 @@
     rgba(0, 85, 186, 1) 0%,
     rgba(58, 148, 255, 1) 100%
   );
+
+
+
   /* border: 2px solid red; */
   width: 90%;
   font-weight: 500;

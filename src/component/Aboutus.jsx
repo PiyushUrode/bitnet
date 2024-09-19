@@ -35,7 +35,7 @@ const Aboutus = () => {
 
         </div>
       </div>
-
+      <div className="header23"> </div>
     </>
   );
 };
